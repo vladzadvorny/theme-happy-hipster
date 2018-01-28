@@ -52,7 +52,7 @@
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#b5cea8"
+        "foreground": "#FCB13F"
       }
     },
     {
@@ -498,6 +498,31 @@
       "scope": "constant.character.escape",
       "settings": {
         "foreground": "#d7ba7d"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": ["constant.language.boolean"],
+      "settings": {
+        "foreground": "#B2DC56"
+      }
+    },
+    {
+      "scope": "punctuation.definition.string",
+      "settings": {
+        "foreground": "#e5e500"
+      }
+    },
+    {
+      "scope": "storage.type.function.arrow.js",
+      "settings": {
+        "foreground": "#B2DC56"
+      }
+    },
+    {
+      "scope": "punctuation.separator.key-value.js",
+      "settings": {
+        "foreground": "#f9f9f9"
       }
     }
   ]
