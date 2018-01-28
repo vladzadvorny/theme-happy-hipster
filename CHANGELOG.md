@@ -2,8 +2,6 @@
 
 All notable changes to the "happy-hipster" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
 * Initial release
@@ -13,3 +11,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Added
 
 * Finished coloring.
+
+## [1.0.1] - 2010-01-28
+
+### Changed
+
+* Fix readme.

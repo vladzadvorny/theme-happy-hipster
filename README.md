@@ -8,7 +8,7 @@
 
 ![happy hipster theme screenshot](https://raw.githubusercontent.com/vladzadvorny/theme-happy-hipster/master/images/screenshot.png)
 
-## Installion
+## Installation
 
 Happy Hipster is available for free on the Visual Studio Code marketplace, it can be installed in the same way as other extensions/themes:
 
