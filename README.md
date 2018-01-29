@@ -10,7 +10,7 @@
 
 ## Installation
 
-Happy Hipster is available for free on the Visual Studio Code marketplace, it can be installed in the same way as other extensions/themes:
+This extension is available for free on the Visual Studio Code marketplace, it can be installed in the same way as other extensions/themes:
 
 1. Open extension menu from the sidebar(or by running `install extension` in command palette)
 2. Search for **Happy Hipster**
@@ -28,6 +28,6 @@ select **Happy Hipster** from the themes list.
 ### For more information
 
 * [Github](https://github.com/vladzadvorny/theme-happy-hipster)
-  <!-- * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/) -->
+* [Marketplace](https://marketplace.visualstudio.com/items?itemName=zadvorny.theme-happy-hipster)
 
 **Enjoy!**

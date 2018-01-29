@@ -4,7 +4,7 @@
   "type": "dark",
   "colors": {
     "editor.background": "#1E1E1E",
-    "editor.foreground": "#f9f9f9",
+    "editor.foreground": "#dddddd",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editorIndentGuide.background": "#404040",
     "editor.selectionHighlightBackground": "#ADD6FF26",
@@ -52,7 +52,7 @@
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#FCB13F"
+        "foreground": "#e5e500"
       }
     },
     {
@@ -523,6 +523,12 @@
       "scope": "punctuation.separator.key-value.js",
       "settings": {
         "foreground": "#f9f9f9"
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name.js",
+      "settings": {
+        "foreground": "#dddddd"
       }
     }
   ]

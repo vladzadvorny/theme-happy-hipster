@@ -17,3 +17,12 @@ All notable changes to the "happy-hipster" extension will be documented in this 
 ### Changed
 
 * Fix readme.
+
+## [1.1.0] - 2010-01-29
+
+### Changed
+
+* Darked foreground.
+* Darked attribute-name.
+* Changed numeric to yellow.
+* Fix readme.
