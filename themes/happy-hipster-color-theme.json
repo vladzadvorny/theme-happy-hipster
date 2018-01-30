@@ -508,12 +508,6 @@
       }
     },
     {
-      "scope": "punctuation.definition.string",
-      "settings": {
-        "foreground": "#e5e500"
-      }
-    },
-    {
       "scope": "storage.type.function.arrow.js",
       "settings": {
         "foreground": "#B2DC56"

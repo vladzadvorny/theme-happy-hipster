@@ -26,3 +26,9 @@ All notable changes to the "happy-hipster" extension will be documented in this 
 * Darked attribute-name.
 * Changed numeric to yellow.
 * Fix readme.
+
+## [1.2.0] - 2010-01-30
+
+### Removed
+
+* Section punctuation.definition.string.
