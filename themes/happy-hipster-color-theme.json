@@ -64,7 +64,7 @@
     {
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#FF594F"
+        "foreground": "#e5e500"
       }
     },
     {

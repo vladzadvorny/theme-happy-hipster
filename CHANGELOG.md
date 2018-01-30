@@ -32,3 +32,9 @@ All notable changes to the "happy-hipster" extension will be documented in this 
 ### Removed
 
 * Section punctuation.definition.string.
+
+## [1.2.1] - 2010-01-30
+
+### Changed
+
+* Changed entity.name.tag to yellow.
