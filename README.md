@@ -1,4 +1,4 @@
-# README
+# Happy Hipster
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/zadvorny.theme-happy-hipster.svg)](https://marketplace.visualstudio.com/items?itemName=zadvorny.theme-happy-hipster)
 [![Rating](https://vsmarketplacebadge.apphb.com/rating/zadvorny.theme-happy-hipster.svg)](https://marketplace.visualstudio.com/items?itemName=zadvorny.theme-happy-hipster)

@@ -6,19 +6,19 @@ All notable changes to the "happy-hipster" extension will be documented in this 
 
 * Initial release
 
-## [1.0.0] - 2010-01-28
+## [1.0.0] - 2018-01-28
 
 ### Added
 
 * Finished coloring.
 
-## [1.0.1] - 2010-01-28
+## [1.0.1] - 2018-01-28
 
 ### Changed
 
 * Fix readme.
 
-## [1.1.0] - 2010-01-29
+## [1.1.0] - 2018-01-29
 
 ### Changed
 
@@ -27,14 +27,20 @@ All notable changes to the "happy-hipster" extension will be documented in this 
 * Changed numeric to yellow.
 * Fix readme.
 
-## [1.2.0] - 2010-01-30
+## [1.2.0] - 2018-01-30
 
 ### Removed
 
 * Section punctuation.definition.string.
 
-## [1.2.1] - 2010-01-30
+## [1.2.1] - 2018-01-30
 
 ### Changed
 
 * Changed entity.name.tag to yellow.
+
+## [1.3.0] - 2018-01-30
+
+### Added
+
+* Sections gitDecoration.

@@ -10,7 +10,12 @@
     "editor.selectionHighlightBackground": "#ADD6FF26",
     "list.dropBackground": "#383B3D",
     "activityBarBadge.background": "#007ACC",
-    "sideBarTitle.foreground": "#BBBBBB"
+    "sideBarTitle.foreground": "#BBBBBB",
+
+    // git
+    "gitDecoration.modifiedResourceForeground": "#d7ba7d",
+    "gitDecoration.untrackedResourceForeground": "#B2DC56",
+    "gitDecoration.deletedResourceForeground": "#FF594F"
   },
   "tokenColors": [
     {
@@ -40,7 +45,7 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#608b4e"
+        "foreground": "#888888"
       }
     },
     {
@@ -64,7 +69,7 @@
     {
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#e5e500"
+        "foreground": "#4cc9e2"
       }
     },
     {
@@ -501,8 +506,7 @@
       }
     },
     {
-      "name": "Boolean",
-      "scope": ["constant.language.boolean"],
+      "scope": ["constant.language.boolean", "constant.language.null.js"],
       "settings": {
         "foreground": "#B2DC56"
       }
@@ -510,7 +514,7 @@
     {
       "scope": "storage.type.function.arrow.js",
       "settings": {
-        "foreground": "#B2DC56"
+        "foreground": "#FF594F"
       }
     },
     {
