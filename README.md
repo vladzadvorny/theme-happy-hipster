@@ -25,8 +25,10 @@ This extension is available for free on the Visual Studio Code marketplace:
 Go to **View -> Command Palette** or **Press Ctrl/Cmd+Shift+P** and search for **Color Theme**,
 select **Happy Hipster** from the themes list.
 
-<!-- * Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
+<!-- 
+* Split the editor (`Cmd+\` on OSX or `Ctrl+\` on Windows and Linux)
 * Toggle preview (`Shift+CMD+V` on OSX or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets -->
+* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (OSX) to see a list of Markdown snippets 
+-->
 
 **Enjoy!**
