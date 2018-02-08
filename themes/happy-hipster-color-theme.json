@@ -528,6 +528,20 @@
       "settings": {
         "foreground": "#dddddd"
       }
+    },
+    {
+      "name": "TS types primitive",
+      "scope": ["support.type.primitive.ts"],
+      "settings": {
+        "foreground": "#F58A94"
+      }
+    },
+    {
+      "name": "TS keyword operator type annotation",
+      "scope": ["keyword.operator.type.annotation.ts"],
+      "settings": {
+        "foreground": "#dddddd"
+      }
     }
   ]
 }

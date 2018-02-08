@@ -2,7 +2,7 @@
   "name": "theme-happy-hipster",
   "displayName": "Happy Hipster",
   "description": "Dark theme for VS Code",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "publisher": "zadvorny",
   "engines": {
     "vscode": "^1.19.0"
