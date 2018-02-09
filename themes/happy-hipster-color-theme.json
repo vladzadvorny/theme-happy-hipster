@@ -531,9 +531,14 @@
     },
     {
       "name": "TS types primitive",
-      "scope": ["support.type.primitive.ts"],
+      "scope": [
+        "support.type.primitive.ts",
+        "support.type.primitive.tsx",
+        "entity.name.type.ts",
+        "entity.name.type.tsx"
+      ],
       "settings": {
-        "foreground": "#F58A94"
+        "foreground": "#B2DC56"
       }
     },
     {
