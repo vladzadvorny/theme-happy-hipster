@@ -2,6 +2,7 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Dark Default Colors",
   "colors": {
+    // "editor.background": "#1a1e27",
     "editor.background": "#1E1E1E",
     "editor.foreground": "#DDDDDD",
     "editor.inactiveSelectionBackground": "#3A3D41",
@@ -60,11 +61,15 @@
     {
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#E3E300"
+        "foreground": "#dddd03"
       }
     },
     {
-      "scope": ["constant.language.boolean"],
+      "scope": [
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined"
+      ],
       "settings": {
         "foreground": "#b2dc56"
       }
@@ -144,7 +149,7 @@
     {
       "scope": "markup.inserted",
       "settings": {
-        "foreground": "#b5cea8"
+        "foreground": "#b2dc56"
       }
     },
     {
@@ -205,7 +210,7 @@
     {
       "scope": "meta.preprocessor.numeric",
       "settings": {
-        "foreground": "#b5cea8"
+        "foreground": "#b2dc56"
       }
     },
     {
@@ -267,6 +272,8 @@
       "scope": [
         "punctuation.definition.template-expression.begin",
         "punctuation.definition.template-expression.end",
+        "keyword.other.substitution.begin",
+        "keyword.other.substitution.end",
         "punctuation.section.embedded"
       ],
       "settings": {
@@ -316,9 +323,7 @@
         "keyword.operator.new",
         "keyword.operator.expression",
         "keyword.operator.cast",
-        "keyword.operator.sizeof",
-        "keyword.operator.logical",
-        "keyword.operator.logical.python"
+        "keyword.operator.sizeof"
       ],
       "settings": {
         "foreground": "#FF6942"
@@ -328,8 +333,10 @@
       "scope": [
         "keyword.operator.comparison",
         "keyword.operator.assignment",
-
-        "keyword.operator.ternary"
+        "keyword.operator.relational",
+        "keyword.operator.ternary",
+        "keyword.operator.logical",
+        "keyword.operator.logical.python"
       ],
       "settings": {
         "foreground": "#fcb13f"
@@ -338,7 +345,7 @@
     {
       "scope": "keyword.other.unit",
       "settings": {
-        "foreground": "#b5cea8"
+        "foreground": "#b2dc56"
       }
     },
     {
@@ -359,7 +366,7 @@
     {
       "scope": "constant.sha.git-rebase",
       "settings": {
-        "foreground": "#b5cea8"
+        "foreground": "#b2dc56"
       }
     },
     {
@@ -388,7 +395,7 @@
         "support.constant.handlebars"
       ],
       "settings": {
-        "foreground": "#E3E300"
+        "foreground": "#dddd03"
       }
     },
     {
@@ -517,7 +524,7 @@
     {
       "scope": ["keyword.operator.or.regexp", "keyword.control.anchor.regexp"],
       "settings": {
-        "foreground": "#E3E300"
+        "foreground": "#dddd03"
       }
     },
     {
@@ -539,6 +546,18 @@
       }
     },
     {
+      "scope": "variable.parameter.graphql",
+      "settings": {
+        "foreground": "#fcb13f"
+      }
+    },
+    {
+      "scope": "keyword.operator.nulltype.graphql",
+      "settings": {
+        "foreground": "#4CC9E2"
+      }
+    },
+    {
       "scope": "entity.other.attribute-name.js",
       "settings": {
         "foreground": "#dddddd"
@@ -547,7 +566,13 @@
     {
       "scope": ["storage.modifier.async", "storage.modifier.await"],
       "settings": {
-        "foreground": "#fcb13f"
+        "foreground": "#FF6942"
+      }
+    },
+    {
+      "scope": ["source.env"],
+      "settings": {
+        "foreground": "#b2dc56"
       }
     }
   ]
