@@ -9,7 +9,7 @@
     "editorIndentGuide.background": "#404040",
     "editor.selectionHighlightBackground": "#B2DC5646",
     "list.dropBackground": "#383B3D",
-    "activityBarBadge.background": "#78943A",
+    "activityBarBadge.background": "#718C37",
     "sideBarTitle.foreground": "#BBBBBB",
     "gitDecoration.modifiedResourceForeground": "#fcb13f",
     "gitDecoration.untrackedResourceForeground": "#B2DC56",
@@ -18,7 +18,7 @@
     "editorCursor.foreground": "#fcb13f",
     "sideBar.background": "#212530",
     "activityBar.background": "#282D3B",
-    "statusBar.background": "#78943A",
+    "statusBar.background": "#718C37",
     "titleBar.activeBackground": "#282D3B",
     "editorGroupHeader.tabsBackground": "#212530",
     "tab.inactiveBackground": "#282D3B"
