@@ -2,18 +2,26 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Dark Default Colors",
   "colors": {
-    // "editor.background": "#1a1e27",
-    "editor.background": "#1E1E1E",
+    "editor.background": "#1a1e27",
+    // "editor.background": "#1E1E1E",
     "editor.foreground": "#DDDDDD",
     "editor.inactiveSelectionBackground": "#3A3D41",
     "editorIndentGuide.background": "#404040",
-    "editor.selectionHighlightBackground": "#ADD6FF26",
+    "editor.selectionHighlightBackground": "#B2DC5646",
     "list.dropBackground": "#383B3D",
-    "activityBarBadge.background": "#007ACC",
+    "activityBarBadge.background": "#78943A",
     "sideBarTitle.foreground": "#BBBBBB",
     "gitDecoration.modifiedResourceForeground": "#fcb13f",
     "gitDecoration.untrackedResourceForeground": "#B2DC56",
-    "gitDecoration.deletedResourceForeground": "#FF6942"
+    "gitDecoration.deletedResourceForeground": "#FF6942",
+
+    "editorCursor.foreground": "#fcb13f",
+    "sideBar.background": "#212530",
+    "activityBar.background": "#282D3B",
+    "statusBar.background": "#78943A",
+    "titleBar.activeBackground": "#282D3B",
+    "editorGroupHeader.tabsBackground": "#212530",
+    "tab.inactiveBackground": "#282D3B"
   },
   "tokenColors": [
     {
@@ -95,7 +103,7 @@
     {
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#4CC9E2"
+        "foreground": "#dddddd"
       }
     },
     {
@@ -336,7 +344,8 @@
         "keyword.operator.relational",
         "keyword.operator.ternary",
         "keyword.operator.logical",
-        "keyword.operator.logical.python"
+        "keyword.operator.logical.python",
+        "meta.tag.inline.any"
       ],
       "settings": {
         "foreground": "#fcb13f"
@@ -557,14 +566,9 @@
         "foreground": "#4CC9E2"
       }
     },
+
     {
-      "scope": "entity.other.attribute-name.js",
-      "settings": {
-        "foreground": "#dddddd"
-      }
-    },
-    {
-      "scope": ["storage.modifier.async", "storage.modifier.await"],
+      "scope": ["storage.modifier.async", "keyword.control.flow"],
       "settings": {
         "foreground": "#FF6942"
       }
