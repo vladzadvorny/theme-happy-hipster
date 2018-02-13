@@ -345,7 +345,8 @@
         "keyword.operator.ternary",
         "keyword.operator.logical",
         "keyword.operator.logical.python",
-        "meta.tag.inline.any"
+        "meta.tag.inline.any",
+        "keyword.operator.arithmetic"
       ],
       "settings": {
         "foreground": "#fcb13f"
@@ -577,6 +578,12 @@
       "scope": ["source.env"],
       "settings": {
         "foreground": "#b2dc56"
+      }
+    },
+    {
+      "scope": ["punctuation.separator.key-value"],
+      "settings": {
+        "foreground": "#dddddd"
       }
     }
   ]
