@@ -91,7 +91,7 @@
     {
       "scope": "entity.name.tag",
       "settings": {
-        "foreground": "#4CC9E2"
+        "foreground": "#b2dc56"
       }
     },
     {
@@ -584,6 +584,12 @@
       "scope": ["punctuation.separator.key-value"],
       "settings": {
         "foreground": "#dddddd"
+      }
+    },
+    {
+      "scope": ["punctuation.separator.key-value.html"],
+      "settings": {
+        "foreground": "#fcb13f"
       }
     }
   ]
