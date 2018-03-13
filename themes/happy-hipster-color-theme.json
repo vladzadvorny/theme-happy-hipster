@@ -346,6 +346,10 @@
         "keyword.operator.logical",
         "keyword.operator.logical.python",
         "meta.tag.inline.any",
+        "meta.tag.metadata.script.html",
+        "meta.tag.other.html",
+        "meta.tag.block.any.html",
+        "meta.tag.structure.any.html",
         "keyword.operator.arithmetic"
       ],
       "settings": {
