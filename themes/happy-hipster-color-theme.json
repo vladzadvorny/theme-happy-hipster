@@ -642,6 +642,39 @@
       "settings": {
         "foreground": "#fcb13f"
       }
+    },
+    // elixir
+    {
+      "scope": ["keyword.control.module.elixir", "keyword.control.elixir"],
+      "settings": {
+        "foreground": "#FF6942"
+      }
+    },
+    {
+      "scope": [
+        "keyword.operator.other.elixir",
+        "variable.other.constant.elixir"
+      ],
+      "settings": {
+        "foreground": "#fcb13f"
+      }
+    },
+    {
+      "scope": ["source.elixir"],
+      "settings": {
+        "foreground": "#4CC9E2"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.section.array.elixir",
+        "punctuation.separator.object.elixir",
+        "punctuation.separator.method.elixir",
+        "punctuation.section.function.elixir"
+      ],
+      "settings": {
+        "foreground": "#dddddd"
+      }
     }
   ]
 }
