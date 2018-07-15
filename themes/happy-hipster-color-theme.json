@@ -670,10 +670,26 @@
         "punctuation.section.array.elixir",
         "punctuation.separator.object.elixir",
         "punctuation.separator.method.elixir",
-        "punctuation.section.function.elixir"
+        "punctuation.section.function.elixir",
+        "punctuation.section.scope.elixir"
       ],
       "settings": {
         "foreground": "#dddddd"
+      }
+    },
+    {
+      "scope": [],
+      "settings": {
+        "foreground": "#dddd03"
+      }
+    },
+    {
+      "scope": [
+        "constant.other.symbol.elixir",
+        "keyword.operator.other.elixir"
+      ],
+      "settings": {
+        "foreground": "#b2dc56"
       }
     }
   ]

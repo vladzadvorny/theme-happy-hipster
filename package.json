@@ -2,12 +2,14 @@
   "name": "theme-happy-hipster",
   "displayName": "Happy Hipster",
   "description": "Dark theme for VS Code",
-  "version": "2.8.0",
+  "version": "2.8.5",
   "publisher": "zadvorny",
   "engines": {
     "vscode": "^1.19.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "bugs": {
     "url": "https://github.com/vladzadvorny/theme-happy-hipster/issues",
     "email": "vladzadvorny@icloud.com"
