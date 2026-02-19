@@ -1,4 +1,7 @@
 .vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+.github/**
+node_modules/**
+*.vsix
+.DS_Store
+example.jsx
+PUBLISHING.md

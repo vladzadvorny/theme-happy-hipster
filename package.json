@@ -1,24 +1,41 @@
 {
   "name": "theme-happy-hipster",
   "displayName": "Happy Hipster",
-  "description": "Dark theme for VS Code",
-  "version": "2.8.5",
+  "description": "A dark VS Code theme based on your orange, lime, cyan and graphite palette.",
+  "icon": "images/icon.png",
+  "version": "2.8.6",
   "publisher": "zadvorny",
-  "engines": {
-    "vscode": "^1.19.0"
-  },
-  "categories": [
-    "Themes"
-  ],
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vladzadvorny/theme-happy-hipster/issues",
-    "email": "vladzadvorny@icloud.com"
+    "email": "vladzadvorny@outlook.com"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/vladzadvorny/theme-happy-hipster"
   },
-  "icon": "images/icon.png",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme",
+    "happy hipster",
+    "vscode theme"
+  ],
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "scripts": {
+    "check:manifest": "node -e \"JSON.parse(require('node:fs').readFileSync('package.json','utf8')); console.log('manifest ok')\"",
+    "check:theme": "node -e \"JSON.parse(require('node:fs').readFileSync('themes/happy-hipster-color-theme.json','utf8')); console.log('theme ok')\"",
+    "verify": "npm run check:manifest && npm run check:theme",
+    "package:vsix": "npx @vscode/vsce package",
+    "publish:patch": "npx @vscode/vsce publish patch",
+    "publish:minor": "npx @vscode/vsce publish minor",
+    "publish:major": "npx @vscode/vsce publish major"
+  },
   "contributes": {
     "themes": [
       {
@@ -27,5 +44,8 @@
         "path": "./themes/happy-hipster-color-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
   }
 }
